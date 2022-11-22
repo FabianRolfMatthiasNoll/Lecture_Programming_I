@@ -1,5 +1,3 @@
-package Homework2;
-
 public class VertauschenAufgabe {
     public static void main(String[] args) {
         int a = 7;

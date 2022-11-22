@@ -1,5 +1,3 @@
-package Homework2;
-
 import java.util.Arrays;
 
 public class FindMax {

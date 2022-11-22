@@ -1,5 +1,3 @@
-package Homework2;
-
 public class GgtFinder {
     public static void main(String[] args) {
         int val1 = 10;

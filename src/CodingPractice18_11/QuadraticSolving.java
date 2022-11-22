@@ -1,5 +1,3 @@
-package Homework2;
-
 import java.lang.Math;
 
 public class QuadraticSolving {
