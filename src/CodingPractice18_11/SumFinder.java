@@ -1,8 +1,6 @@
-import java.util.random.RandomGenerator;
-
 public class SumFinder {
     public static void main(String[] args){
-        int nums[] = {1,2,4};
+        int[] nums = {1,2,4};
         int sum = 9;
         var output = FindSumIndex(nums,sum);
         if(!(output[0] == 0 && output[1] == 0)){
@@ -12,8 +10,8 @@ public class SumFinder {
             System.out.println("No possible Solution found!");
         }
     }
-    public static int[] FindSumIndex(int nums[], int sum){
-        int indexSum[] = {0,0};
+    public static int[] FindSumIndex(int[] nums, int sum){
+        int[] indexSum = {0,0};
 
         for(int i = 0; i < nums.length; i++){
             indexSum[0] = i;
