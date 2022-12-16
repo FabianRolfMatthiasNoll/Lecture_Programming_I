@@ -4,9 +4,9 @@ public class QuadraticSolving {
 
     public static void main(String[] args) {
         //Input of quadratic function
-        double ax = 2;
-        double bx = 16;
-        double c = -18;
+        double ax = 1;
+        double bx = 2;
+        double c = 3;
 
         //quadratic function = two results
         double xOne = 0;

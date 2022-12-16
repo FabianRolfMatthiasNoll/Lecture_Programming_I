@@ -17,8 +17,17 @@ public class StepCounter {
         return res[stairs];
     }
 
+    public static int stairBin(int stairs){ //Formel von Binä...
+        stairs++;
+        double squareRootOf5 = Math.sqrt(5);
+        double phi = (1 + squareRootOf5)/2;
+        int nthTerm = (int)((Math.pow(phi,stairs) - Math.pow(-phi,-stairs))/squareRootOf5);
+        return nthTerm;
+    }
+
     public static void main(String args[]){
-        int stairs = 40;
+        int stairs = 6;
         System.out.println(countSteps(stairs));
+        System.out.println(stairBin(stairs));
     }
 }

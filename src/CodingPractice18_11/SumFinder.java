@@ -1,7 +1,7 @@
 public class SumFinder {
     public static void main(String[] args){
         int[] nums = {1,2,4};
-        int sum = 9;
+        int sum = 5;
         var output = FindSumIndex(nums,sum);
         if(!(output[0] == 0 && output[1] == 0)){
             System.out.println("Index 1: " + output[0] + "| Index 2: " + output[1]);
