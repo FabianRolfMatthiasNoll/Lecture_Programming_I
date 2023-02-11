@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/CodingPractice18_11" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/BubbleSort" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="19" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
